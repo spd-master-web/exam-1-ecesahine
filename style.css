@@ -4,4 +4,137 @@
 
 body {
   margin: 0;
+  position: relative;
+}
+
+main{
+  margin:5%;
+  padding: auto;
+}
+
+header {
+  display: block;
+  position: relative;
+  margin: 0;
+  margin-top: 200px;
+  
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+.navmain {
+  display: grid;
+  grid-column-gap: 40px;
+
+  width: 100%;
+  height: 70px;
+  position:fixed;
+  top:0;
+  left:0;
+  border: 5px white;
+  background-color: yellowgreen;
+}
+
+.clear{
+  clear: both;
+}
+
+img{
+  float: right;
+  border: 3px yellowgreen solid;
+}
+
+#mythology{
+  margin-top: 50px;
+  position: relative;
+  margin-left: 15px;
+}
+
+#lucky{
+  display: inline-block;
+  position: relative;
+}
+
+.numbers{
+  display: block;
+  float:left;
+
+  margin: 20px;
+  padding: 20px;
+  
+  border: 1px green dashed;
+  background-color:wheat;
+  color:goldenrod;
+}
+
+.colors{
+  display: block;
+  float:left;
+
+  margin: 20px;
+  padding: 20px;
+  
+  border: 1px green dashed;
+  background-color:wheat;
+  color:goldenrod;
+}
+
+.directions{
+  display: block;
+  float:left;
+
+  margin: 20px;
+  padding: 20px;
+  
+  border: 1px green dashed;
+  background-color:wheat;
+  color:goldenrod;
+}
+
+.clear{
+  clear: both;
+}
+
+#year{
+  margin-top: 50px;
+  position: relative;
+  margin-left: 15px;
+
+}
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:hover {
+  color:greenyellow;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  margin: 2px;
+
+  background-color:wheat;
+  color: white;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+}
+
+li {
+  display: inline;
+  text-align: center;
+  font-size: medium;
 }
